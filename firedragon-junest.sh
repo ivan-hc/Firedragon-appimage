@@ -98,7 +98,7 @@ export JUNEST_HOME=$HERE/.junest
 export PATH=$PATH:$HERE/.local/share/junest/bin
 mkdir -p $HOME/.cache
 if test -f /etc/resolv.conf; then
-	export JUNEST_ARGS="ns -b ' --bind /etc/resolv.conf /etc/resolv.conf'" # NEEDED TO CONNECT THE INTERNET
+	export JUNEST_ARGS="-n -b ' --bind /etc/resolv.conf /etc/resolv.conf'" # NEEDED TO CONNECT THE INTERNET
 fi
 EXEC=$(grep -e '^Exec=.*' "${HERE}"/*.desktop | head -n 1 | cut -d "=" -f 2- | sed -e 's|%.||g')
 $HERE/.local/share/junest/bin/junest -n 2> /dev/null -- $EXEC "$@"
