@@ -17,8 +17,7 @@ jobs:
     - name: build
       if: always()
       run: |
-        sudo apt update
-        sudo apt install libfuse2
+        sudo apt update && sudo apt install libfuse2 desktop-file-utils
         wget https://raw.githubusercontent.com/ivan-hc/Firedragon-appimage/main/firedragon-junest.sh
         chmod a+x ./firedragon-junest.sh
         ./firedragon-junest.sh
