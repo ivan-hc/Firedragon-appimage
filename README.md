@@ -1,16 +1,17 @@
-This repository creates and distributes the unofficial Appimage of [Firedragon](https://github.com/dr460nf1r3/firedragon-browser).
+# ARCHIVING THIS REPOSITORY ON SEPTEMBER 22, 2024
 
-From here you can download the scripts to build on top of [JuNest](https://github.com/fsquillace/junest), the lightweight Arch Linux based distro that runs, without root privileges, on top of any other Linux distro.
+The upstream developer has finally released an official AppImage:
 
----------------------------------
+- SITE https://firedragon.garudalinux.org
+- SOURCE https://gitlab.com/garuda-linux/firedragon/builder/-/releases/permalink/latest
 
-## Debugging and improvements
+so consider this repository as obsolete!
 
-To improve it, extract the AppImage using the option `--appimage-extract` and follow the instructions [here](https://github.com/ivan-hc/ArchImage#troubleshooting).
+### From now on, users of "AM" and "AppMan" can rely on the official AppImage (see below).
 
 ------------------------------------------------------------------------
 
-## Install and update it with ease
+## Install and update the official Firedragon Appimage with ease
 
 ### *"*AM*" Application Manager* 
 #### *Package manager, database & solutions for all AppImages and portable apps for GNU/Linux!*
